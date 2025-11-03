@@ -2,13 +2,20 @@
     "name": "homehub",
     "version": "1.0.0",
     "description": "",
-    "main": "index.js",
-    "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
-    },
     "author": "Gabriel Veroneze",
     "license": "ISC",
+    "scripts": {
+        "build": "turbo run build",
+        "dev": "turbo run dev",
+        "lint": "turbo run lint",
+        "check-types": "turbo run check-types"
+    },
     "devDependencies": {
         "turbo": "^2.6.0"
-    }
+    },
+    "packageManager": "npm@11.6.2",
+    "workspaces": [
+        "apps/*",
+        "packages/*"
+    ]
 }
