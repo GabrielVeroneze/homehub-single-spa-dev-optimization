@@ -1,8 +1,9 @@
 {
     "name": "@homehub/react-login",
     "scripts": {
-        "start": "webpack serve --port 8502",
+        "start": "webpack serve",
         "start:standalone": "webpack serve --env standalone",
+        "dev": "webpack serve --port 8502",
         "build": "concurrently npm:build:*",
         "build:webpack": "webpack --mode=production",
         "analyze": "webpack --mode=production --env analyze",

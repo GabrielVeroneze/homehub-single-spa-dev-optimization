@@ -1,8 +1,9 @@
 {
     "name": "@homehub/react-parcel",
     "scripts": {
-        "start": "webpack serve --port 8503",
+        "start": "webpack serve",
         "start:standalone": "webpack serve --env standalone",
+        "dev": "webpack serve --port 8503",
         "build": "concurrently npm:build:*",
         "build:webpack": "webpack --mode=production",
         "analyze": "webpack --mode=production --env analyze",
