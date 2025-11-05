@@ -149,7 +149,9 @@ const AirConditionerCard = () => {
                     open={isSnackbarVisible}
                     autoHideDuration={2000}
                     onClose={() => setIsSnackbarVisible(false)}
-                    message={`Ar-condicionado ${isOn ? 'ligado' : 'desligado'}.`}
+                    message={`Ar-condicionado ${
+                        isOn ? 'ligado' : 'desligado'
+                    }.`}
                 />
             )}
         </Card>
