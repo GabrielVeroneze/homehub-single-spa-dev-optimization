@@ -14,7 +14,7 @@
         "watch-tests": "cross-env BABEL_ENV=test jest --watch",
         "coverage": "cross-env BABEL_ENV=test jest --coverage",
         "build:types": "tsc",
-        "prepare": "npm run lint && npm run format && npm run check-format && npm run build:types"
+        "prepare": "npm run format && npm run check-format && npm run lint && npm run build:types"
     },
     "devDependencies": {
         "@babel/core": "^7.23.3",

@@ -10,7 +10,7 @@
         "build": "concurrently npm:build:*",
         "build:webpack": "webpack --mode=production",
         "build:types": "tsc",
-        "prepare": "npm run lint && npm run format && npm run check-format && npm run build:types"
+        "prepare": "npm run format && npm run check-format && npm run lint && npm run build:types"
     },
     "devDependencies": {
         "@babel/core": "^7.23.3",
