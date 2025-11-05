@@ -61,4 +61,5 @@ const Parcel = ({
     )
 }
 
+export type { ParcelProps }
 export default Parcel
