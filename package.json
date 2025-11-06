@@ -6,6 +6,7 @@
     "license": "ISC",
     "scripts": {
         "build": "turbo run build",
+        "build:webpack": "turbo run build:webpack",
         "dev": "turbo run dev",
         "lint": "turbo run lint",
         "check-types": "turbo run check-types",
